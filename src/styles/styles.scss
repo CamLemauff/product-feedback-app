@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+
+$purple-color: #AD1FEA;
+$blue-1: #4661E6;
+$blue-2: #373f68;
+$blue-3: #3A4374;
+$blue-4: #647196;
+$blue-5: #62BCFA;
+$white-1: #FFFFFF;
+$white-2: #F2F4FF;
+$white-3: #F7F8FD;
+$orange-color: #F49F85;
+
+#app {
+    .title_1 {
+        font-family: 'Jost';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        letter-spacing: -0.33;
+    }
+    .title_2 {
+        font-family: 'Jost';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        letter-spacing: -0.25;
+    }
+    .title_3 {
+        font-family: 'Jost';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: -0.25;
+    }
+    .title_4 {
+        font-family: 'Jost';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.2;
+    }
+    .text-1 {
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .text_2 {
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .text_3 {
+        font-family: 'Jost';
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .button_1 {
+        width: 158px;
+        height: 44px;
+        background-color: $purple-color;
+        border-radius: 10px;
+        color: $white-2;
+        font-size: 14px;
+        font-family: 'Jost';
+        font-weight: 700;
+    }
+    .button_1:hover {
+        background-color: #C75AF6;
+    }
+    .button_2 {
+        width: 158px;
+        height: 44px;
+        background-color: $blue-1;
+        border-radius: 10px;
+        color: $white-2;
+        font-size: 14px;
+        font-family: 'Jost';
+        font-weight: 700;
+    }
+    .button_2:hover {
+        background-color: #7C91F9;
+    }
+    .button_3 {
+        width: 158px;
+        height: 44px;
+        background-color: $blue-3;
+        border-radius: 10px;
+        color: $white-2;
+        font-size: 14px;
+        font-family: 'Jost';
+        font-weight: 700;
+    }
+    .button_3:hover {
+        background-color: #656EA3;
+    }
+    .button_4 {
+        width: 158px;
+        height: 44px;
+        background-color: #D73737;
+        border-radius: 10px;
+        color: $white-2;
+        font-size: 14px;
+        font-family: 'Jost';
+        font-weight: 700;
+    }
+    .button_4:hover {
+        background-color: #E98888;
+    }
+}

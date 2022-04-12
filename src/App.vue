@@ -1,27 +1,27 @@
 <template>
   <div id="app">
-    <hello-world></hello-world>
+    <suggestions></suggestions>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Suggestions from './components/Suggestions.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Suggestions
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #3A4374;
+  padding-top: 60px;
+  background-color: #F7F8FD;
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
 </style>
